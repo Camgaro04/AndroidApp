@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PruebaTecnica</string>
+    <string name="text_vehicles">Vehiculos.</string>
+    <string name="text_people">Personas.</string>
+    <!--All Vehicle strings -->
+    <string name="text_insert_vehicle">Inserta un vehiculo.</string>
+    <string name="text_plate">Placa:</string>
+    <string name="text_brand">Marca:</string>
+    <string name="text_model">Modelo:</string>
+    <string name="text_doors_number">Número de puertas:</string>
+    <string name="text_vehicle_type">Tipo de vehiculo:</string>
+    <string name="text_save_vehicle">Guardar vehiculo</string>
+    <!--All person Strings-->
+    <string name="text_person_title">Inserta una persona</string>
+    <string name="text_person_names">Nombres</string>
+    <string name="text_person_last_name">Apellido</string>
+    <string name="text_person_born_date">Fecha de nacimiento</string>
+    <string name="text_person_identification">Identificación</string>
+    <string name="text_person_profession">Profesión</string>
+    <string name="text_person_is_married">Es casado?</string>
+    <string name="text_person_month_balance">Ingresos Mensuales</string>
+    <string name="text_person_vehicle_plate">Placa de vehiculo Actual</string>
+
+</resources>
