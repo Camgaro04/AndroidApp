@@ -135,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
         SqlDbHelper db = new SqlDbHelper(this);
         ArrayList<Person> dataPersons = db.GetAllPersons();
         Date currentTime = Calendar.getInstance().getTime();
+        ServiceConnectionVolley serviceConnection = new ServiceConnectionVolley();
         for(Person person : dataPersons){
            HashMap<String,String> dataParams = new HashMap<>();
            dataParams.put("Hora de sync",currentTime.toString());
@@ -145,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
            dataParams.put("is married",String.valueOf(person.isMarried()));
            dataParams.put("month balance",String.valueOf(person.getMonthBalance()));
            dataParams.put("Vehiculo Actual",person.getActualVehicle().toString());
-            ServiceConnectionVolley serviceConnection = new ServiceConnectionVolley();
+
             serviceConnection.CallWithoutParams(this,dataParams,BASE_URL);
         }
 
@@ -157,8 +158,7 @@ public class MainActivity extends AppCompatActivity {
             dataVehicleParams.put("vehicle type",vehicle.getVehicleType());
             dataVehicleParams.put("vehicle plate",vehicle.getVehicularPlate());
             dataVehicleParams.put("Doors Number",String.valueOf(vehicle.getDoorNumber()));
-
-            ServiceConnectionVolley serviceConnection = new ServiceConnectionVolley();
+            
             serviceConnection.CallWithoutParams(this,dataVehicleParams,BASE_URL_VEHICULOS);
         }
 
