@@ -19,7 +19,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Placa Vehicular:"
-                android:textSize="16dp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"
@@ -38,7 +37,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Marca:"
-                android:textSize="16dp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"
@@ -56,7 +54,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Modelo:"
-                android:textSize="16dp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"
@@ -74,7 +71,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Número de puertas:"
-                android:textSize="16dp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"
@@ -92,7 +88,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Tipo de vehiculo:"
-                android:textSize="16dp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"

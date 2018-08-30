@@ -98,6 +98,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:inputType="number"
                     android:id="@+id/etIdentification"/>
             </LinearLayout>
             <LinearLayout
@@ -115,6 +116,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+
                     android:id="@+id/etProfession"/>
             </LinearLayout>
             <LinearLayout
@@ -146,6 +148,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/text_person_month_balance"
+                    android:inputType="number"
                     android:gravity="center"
                     android:textStyle="bold" />
                 <EditText
